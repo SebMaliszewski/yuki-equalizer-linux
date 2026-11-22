@@ -1,0 +1,3 @@
+#!/bin/sh
+# Uruchamia Korektor Yuki (Linux). Opcja --przywroc: bez okna, włącza filtr jeśli był WŁĄCZONY (do autostartu).
+exec python3 "$(dirname "$(readlink -f "$0")")/yuki_equalizer.py" "$@"
